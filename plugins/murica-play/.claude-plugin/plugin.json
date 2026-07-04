@@ -1,6 +1,6 @@
 {
   "name": "murica-play",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Plays the classic 'Murica bald eagle screech when Claude finishes a turn or asks for permission.",
   "author": {
     "name": "buddhsen-tripathi",
@@ -9,6 +9,5 @@
   "homepage": "https://github.com/buddhsen-tripathi/murica-play",
   "repository": "https://github.com/buddhsen-tripathi/murica-play",
   "license": "MIT",
-  "keywords": ["notifications", "sound", "hooks", "stop-hook", "audio", "meme"],
-  "hooks": "./hooks/hooks.json"
+  "keywords": ["notifications", "sound", "hooks", "stop-hook", "audio", "meme"]
 }
