@@ -10,6 +10,17 @@
           }
         ]
       }
+    ],
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/play.sh\" \"${CLAUDE_PLUGIN_ROOT}/sounds/murica.mp3\""
+          }
+        ]
+      }
     ]
   }
 }

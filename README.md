@@ -42,9 +42,11 @@ Or enable auto-update in `/plugin` → **Marketplaces**. Run `/reload-plugins`
 
 ## What it does
 
-Registers a `Stop` hook that plays the bundled clip (`sounds/murica.mp3`) via a
-small cross-platform script (`scripts/play.sh`). Playback is **detached**, so it
-never delays your session — the eagle screeches while you keep working.
+Registers a `Stop` hook (fires when Claude finishes a turn) and a `Notification`
+hook (fires when Claude asks for permission or is waiting on you), both playing
+the bundled clip (`sounds/murica.mp3`) via a small cross-platform script
+(`scripts/play.sh`). Playback is **detached**, so it never delays your session —
+the eagle screeches while you keep working.
 
 ## Requirements
 
