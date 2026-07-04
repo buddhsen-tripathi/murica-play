@@ -24,6 +24,34 @@ Or do it interactively: run `/plugin`, open the **Marketplaces** tab → add
 
 That's it — the next time Claude stops responding, freedom rings.
 
+## Global install / uninstall
+
+Prefer one command, or automating it? From a clone of this repo:
+
+```
+./install.sh     # register marketplace + install at user (global) scope
+./uninstall.sh   # remove the plugin + the marketplace
+```
+
+Both wrap the `claude` CLI (`claude plugin install --scope user`, etc.), so the
+plugin is enabled for your user across every project.
+
+### Declarative (settings.json)
+
+To install globally by config instead, add to `~/.claude/settings.json`:
+
+```json
+{
+  "extraKnownMarketplaces": {
+    "murica-play": { "source": { "source": "github", "repo": "buddhsen-tripathi/murica-play" } }
+  },
+  "enabledPlugins": { "murica-play@murica-play": true }
+}
+```
+
+Delete those two entries to uninstall. Restart Claude Code (or `/reload-plugins`)
+after any of the above.
+
 ## Update (one click)
 
 - **Auto:** in `/plugin` → **Marketplaces** → select `murica-play` → toggle
