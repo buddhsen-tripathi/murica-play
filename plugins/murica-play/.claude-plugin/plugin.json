@@ -1,0 +1,14 @@
+{
+  "name": "murica-play",
+  "version": "1.0.0",
+  "description": "Plays the classic 'Murica bald eagle screech every time Claude finishes a turn.",
+  "author": {
+    "name": "buddhsen-tripathi",
+    "url": "https://github.com/buddhsen-tripathi"
+  },
+  "homepage": "https://github.com/buddhsen-tripathi/murica-play",
+  "repository": "https://github.com/buddhsen-tripathi/murica-play",
+  "license": "MIT",
+  "keywords": ["notifications", "sound", "hooks", "stop-hook", "audio", "meme"],
+  "hooks": "./hooks/hooks.json"
+}

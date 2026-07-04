@@ -1,0 +1,16 @@
+{
+  "name": "murica-play",
+  "owner": {
+    "name": "buddhsen-tripathi",
+    "url": "https://github.com/buddhsen-tripathi"
+  },
+  "description": "A Claude Code plugin that screeches like a bald eagle when Claude finishes a turn.",
+  "plugins": [
+    {
+      "name": "murica-play",
+      "source": "./plugins/murica-play",
+      "description": "Plays the classic 'Murica bald eagle screech every time Claude finishes responding. Cross-platform (macOS / Linux / Windows).",
+      "version": "1.0.0"
+    }
+  ]
+}
